@@ -1,0 +1,50 @@
+footer {
+    background: var(--bg-color-black);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.column {
+    display: flex;
+    align-items: baseline;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+address p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white-color);
+    margin-bottom: 9px;
+}
+
+address a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--adress-a-color);
+}
+
+address li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-social {
+    margin-left: 70px;
+}
+
+.address-social p,
+.mailing-wrapper p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

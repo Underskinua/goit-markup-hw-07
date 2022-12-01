@@ -1,0 +1,45 @@
+.experience-main {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+.experience-main h2,
+.our-command-main h2,
+.our-client-main h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--h2-h3-color);
+    margin-bottom: 50px;
+}
+
+.img-experience-main {
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper-exp {
+    position: relative;
+}
+
+.description-exp {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.description-exp h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
