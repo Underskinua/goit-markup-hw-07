@@ -1,5 +1,15 @@
 .mailing-wrapper {
     margin-left: auto;
+
+    & p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
 }
 
 .mailing-form {
@@ -20,18 +30,19 @@
     padding-right: auto;
     cursor: pointer;
     color: #ffffff;
-}
 
-.mailing-form-input:focus {
-    border-color: var(--hover-color);
-    color: #ffffff;
-}
+    &:focus {
+        border-color: var(--hover-color);
+        color: #ffffff;
+    }
 
-.mailing-form-input::placeholder {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: solid rgba(255, 255, 255, 0.6);
+
+    &::placeholder {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: solid rgba(255, 255, 255, 0.6);
+    }
 }

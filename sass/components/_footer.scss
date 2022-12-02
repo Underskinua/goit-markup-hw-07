@@ -2,6 +2,10 @@ footer {
     background: var(--bg-color-black);
     padding-top: 60px;
     padding-bottom: 60px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .column {
@@ -9,9 +13,6 @@ footer {
     align-items: baseline;
 }
 
-footer a {
-    text-decoration: none;
-}
 
 address p {
     font-family: "Roboto", sans-serif;
@@ -36,15 +37,16 @@ address li:not(:last-child) {
 
 .address-social {
     margin-left: 70px;
+
+
+    & p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
 }
 
-.address-social p,
-.mailing-wrapper p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
