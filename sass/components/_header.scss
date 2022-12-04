@@ -14,17 +14,17 @@
     align-items: center;
 }
 
-.nav-list {
+.navigation__list {
     display: flex;
     align-items: center;
 }
 
-.nav-list-menu:not(:last-child) {
+.navigation__menu:not(:last-child) {
     margin-right: 50px;
     position: relative;
 }
 
-.nav-list-item {
+.navigation__item {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -35,7 +35,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-item-active {
+.navigation__item-active {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -56,11 +56,11 @@
     }
 }
 
-.menu-contact {
+.navigation__contact {
     margin-left: auto;
 }
 
-.contact-mail {
+.navigation__mail {
     display: flex;
     font-style: normal;
     font-weight: 500;
@@ -74,7 +74,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-number {
+.navigation__telephone {
     display: flex;
     font-style: normal;
     font-weight: 500;
