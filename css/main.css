@@ -601,7 +601,7 @@ img {
   border-color: var(--hover-color);
   outline: none;
 }
-.modal-form__input:focus + .form-icon {
+.modal-form__input:focus + .modal-form__icon {
   fill: var(--hover-color);
   outline: none;
 }
