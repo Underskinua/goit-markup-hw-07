@@ -1,4 +1,15 @@
-.contact-form-field {
+.modal__header {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.modal-form__field {
     display: block;
     margin-bottom: 10px;
 
@@ -11,7 +22,7 @@
     }
 }
 
-.contact-form-input {
+.modal-form__input {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -32,7 +43,7 @@
     }
 }
 
-.form-icon {
+.modal-form__icon {
     position: absolute;
     display: block;
     top: 50%;
@@ -42,18 +53,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form {
-    display: block;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    color: #212121;
-    text-align: center;
-    margin-bottom: 12px;
-}
-
-.contact-form-message {
+.modal-form__message {
     width: 100%;
     height: 120px;
     border-radius: 4px;
@@ -78,10 +78,10 @@
     }
 }
 
-.title-form-comment,
-.title-form-name,
-.title-form-phone,
-.title-form-email {
+.modal-form__title-comment,
+.modal-form__title-name,
+.modal-form__title-phone,
+.modal-form__title-email {
     color: var(--text-color);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -91,7 +91,7 @@
     display: block;
 }
 
-.contact-form-input-wrapper {
+.modal-form__input-wrapper {
     position: relative;
     display: block;
 }
@@ -113,21 +113,21 @@
     visibility: hidden;
 }
 
-.contact-form-checkbox:checked+.contact-form-checkbox-label .checkbox-icon {
+.modal-form__checkbox:checked+.modal-form__checkbox-label .checkbox-icon {
     visibility: visible;
     background-color: var(--hover-color);
     border: none;
 }
 
-.contact-form-checkbox:checked+.contact-form-checkbox-label .checkbox-icon-border {
+.modal-form__checkbox:checked+.modal-form__checkbox-label .checkbox-icon-border {
     border-color: #2196f3;
 }
 
-.contact-form-checkbox:focus+.contact-form-checkbox-label .checkbox-icon-border {
+.modal-form__checkbox:focus+.modal-form__checkbox-label .checkbox-icon-border {
     outline: 1px solid var(--hover-color);
 }
 
-.contact-form-checkbox-label {
+.modal-form__checkbox-label {
     display: flex;
     align-items: center;
     justify-content: center;

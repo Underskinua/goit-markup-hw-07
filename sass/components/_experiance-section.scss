@@ -1,4 +1,4 @@
-.experience-main {
+.experience__content {
     padding-top: 0px;
     padding-bottom: 94px;
 
@@ -13,16 +13,16 @@
     }
 }
 
-.img-experience-main {
+.experience__content__img {
     display: flex;
     gap: 30px;
 }
 
-.wrapper-exp {
+.experience__wrapper {
     position: relative;
 }
 
-.description-exp {
+.experience__description {
     position: absolute;
     display: flex;
     align-items: center;

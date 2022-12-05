@@ -1,14 +1,30 @@
-.icon-footer {
+.footer-social__content {
+    margin-left: 70px;
+
+
+    & p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
+
+
+.footer-social__icon-indent {
     display: flex;
     gap: 10px;
 }
 
-.address-social-icon {
+.footer-social__icon {
     fill: #ffffff;
 }
 
 
-.address-social-link {
+.footer-social__link {
     display: flex;
     width: 44px;
     height: 44px;

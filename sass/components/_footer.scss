@@ -8,7 +8,7 @@ footer {
     }
 }
 
-.column {
+.footer__wrapper {
     display: flex;
     align-items: baseline;
 }
@@ -35,18 +35,4 @@ address li:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.address-social {
-    margin-left: 70px;
-
-
-    & p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        color: #ffffff;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-    }
-}
 
